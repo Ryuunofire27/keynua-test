@@ -1,5 +1,7 @@
 {
   "name": "keynua",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

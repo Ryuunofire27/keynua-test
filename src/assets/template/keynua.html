@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://sign.stg.keynua.com/widgets/widget.js"></script>
+</head>
+<body>
+  <div class="keynua-widget"></div>
+  <script>
+    window.Keynua.run({
+      token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjaWQiOiJiNDJmNWViMC03ZTlkLTExZWEtOGMyZi00OWQ3M2JjMDZhMmJlMSIsInRva2VuX3VzZSI6InNpZ24iLCJpc3MiOiJodHRwczovL2FwaS5zdGcua2V5bnVhLmNvbS9jb250cmFjdHMiLCJ1aWQiOjAsInBpZCI6IjM1OTIwZGNkZDBkYjMwZmU0MThmNTc3OGIyMTlhYTJkNWRmMzM2ZjU4OWZmZWYxMzA4NGZjZjE3YmQ0NGMyY2MifQ.U3kUAxxqcQBTxoB1mjXnDjIAaaxXEvxsFyM_3CsY0x8",
+      uiCallback: (ev) => console.log(ev)
+    });
+    setTimeout(() => {
+      //window.history.pushState
+      window.location = "#succesful"
+    }, 10000)
+  </script>
+</body>
+</html>
